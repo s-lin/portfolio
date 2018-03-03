@@ -81,13 +81,13 @@ button{
 	padding-top: 20px;
 }
 
-#nav_logo{
-	float: left;
-}
-
 #nav_bar{
 	float: right;
 	font-weight: bold;
+}
+
+.logo_mob{
+	display: none;
 }
 
 /*#logo_type{
@@ -277,7 +277,7 @@ button{
 .project_desc_desc{
 	color: #bbb;
 	max-width: 65%;
-	margin-bottom: 2em;
+	margin-bottom: 1.75em;
 }
 
 .project_img_long{
@@ -312,10 +312,14 @@ button{
   height: 30%;
 }
 
-.cafe, .salmon, .kitchen, .automata, .user_profile{
+.cafe, .salmon, .kitchen, .automata, .user_profile, .mask, .sticker, .books{
   display: block;
   width: 100%;
   height: auto;
+}
+
+.salmon_mob, .user_profile_mob, .kitchen_mob, .cafe_mob, .automata_mob{
+	display: none;
 }
 
 .text {
@@ -345,6 +349,23 @@ and (min-width: 320px){
 		margin-right: auto;
 		position: relative;
 		margin-bottom: 1.5em;
+	}
+
+	.salmon_web, .user_profile_web, .kitchen_web, .cafe_web, .automata_web{
+		display: none;
+	}
+
+	.salmon_mob, .user_profile_mob, .kitchen_mob, .cafe_mob, .automata_mob{
+		display: block;
+		width: 100%;
+	}
+
+	.logo_mob{
+		display: inline-block;
+	}
+
+	.logo_web{
+		display: none;
 	}
 
 	body{
