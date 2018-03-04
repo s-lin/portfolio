@@ -296,29 +296,15 @@ button{
 	background-image: url(projects/user_profile/user_profile_thumb.png);
 }
 
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #f1f1f1;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
-}
-
-.project:hover .overlay {
-  height: 30%;
-}
-
-.cafe, .salmon, .kitchen, .automata, .user_profile, .mask, .sticker, .books{
+.cafe, .salmon, .kitchen, .automata, .user_profile, .mask, .sticker, .books, .bear{
   display: block;
   width: 100%;
   height: auto;
 }
 
-.salmon_mob, .user_profile_mob, .kitchen_mob, .cafe_mob, .automata_mob{
+.salmon_mob, .user_profile_mob, .kitchen_mob, 
+.cafe_mob, .automata_mob, .mask_mob, .sticker_mob, 
+.bear_mob{
 	display: none;
 }
 
@@ -351,11 +337,15 @@ and (min-width: 320px){
 		margin-bottom: 1.5em;
 	}
 
-	.salmon_web, .user_profile_web, .kitchen_web, .cafe_web, .automata_web{
+	.salmon_web, .user_profile_web, .kitchen_web, 
+	.cafe_web, .automata_web, .mask_web, .sticker_web, 
+	.bear_mob{
 		display: none;
 	}
 
-	.salmon_mob, .user_profile_mob, .kitchen_mob, .cafe_mob, .automata_mob{
+	.salmon_mob, .user_profile_mob, .kitchen_mob, 
+	.cafe_mob, .automata_mob, .mask_mob, .sticker_mob, 
+	.bear_mob{
 		display: block;
 		width: 100%;
 	}
