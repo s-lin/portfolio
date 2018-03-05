@@ -154,15 +154,16 @@ button{
 	margin-right: 50px;
 }
 
-#placeholder_big{
-	width: 600px;
-	height: 400px;
-	background: #2b2b2b;
+#slideshow{
+	max-width: 20%;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;	
 	margin-bottom: 5em;
 }
+
+
 
 /*#project_info{
 	width: 250px;
