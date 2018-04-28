@@ -297,7 +297,7 @@ button{
 	background-image: url(projects/user_profile/user_profile_thumb.png);
 }
 
-.cafe, .salmon, .kitchen, .automata, .user_profile, .mask, .sticker, .books, .bear{
+.cafe, .salmon, .kitchen, .automata, .user_profile, .mask, .sticker, .books, .bear, .jpnwk{
   display: block;
   width: 100%;
   height: auto;
@@ -305,7 +305,7 @@ button{
 
 .salmon_mob, .user_profile_mob, .kitchen_mob, 
 .cafe_mob, .automata_mob, .mask_mob, .sticker_mob, 
-.bear_mob{
+.bear_mob, .jpnwk_mob{
 	display: none;
 }
 
@@ -340,13 +340,13 @@ and (min-width: 320px){
 
 	.salmon_web, .user_profile_web, .kitchen_web, 
 	.cafe_web, .automata_web, .mask_web, .sticker_web, 
-	.bear_mob{
+	.bear_web, .jpnwk_web{
 		display: none;
 	}
 
 	.salmon_mob, .user_profile_mob, .kitchen_mob, 
 	.cafe_mob, .automata_mob, .mask_mob, .sticker_mob, 
-	.bear_mob{
+	.bear_mob, .jpnwk_mob{
 		display: block;
 		width: 100%;
 	}
